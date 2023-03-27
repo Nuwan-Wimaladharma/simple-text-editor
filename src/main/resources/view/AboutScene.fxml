@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="266.0" prefWidth="496.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijde.dep10.editor.controller.AboutSceneController">
+   <children>
+      <ImageView fitHeight="116.0" fitWidth="111.0" layoutX="30.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/text-editor.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="162.0" layoutY="22.0" text="Simple Text Editor 2023.0.0">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="163.0" layoutY="57.0" prefHeight="21.0" prefWidth="324.0" text="Build #STE-223.256 built on February 22,2023" />
+      <Label layoutX="164.0" layoutY="99.0" text="Licensed to Nuwan Wimaladharma" />
+      <Label layoutX="164.0" layoutY="118.0" text="Subscription is active until February 22,2024" />
+      <Label layoutX="165.0" layoutY="152.0" text="Runtime version - 1.0.0 amd64" />
+      <Label layoutX="165.0" layoutY="184.0" text="Powered by " />
+      <Label layoutX="165.0" layoutY="200.0" text="Copright © 1996-2023 NW Creations" />
+      <Button fx:id="btnClose" layoutX="427.0" layoutY="232.0" mnemonicParsing="false" onAction="#btnCloseOnAction" prefHeight="24.0" prefWidth="60.0" text="Close" />
+      <Hyperlink layoutX="242.0" layoutY="181.0" text="nwcreations.lk" />
+   </children>
+</AnchorPane>
